@@ -4,8 +4,8 @@
     "dependencies": {
         "when": "~3.x",
         "nano": "6.2.x",
-        "bcrypt": "1.0.2",
-        "cfenv":"~1.0.0",
+        "bcrypt": "2.0.0",
+        "cfenv":"~1.2.1",
         "express":"4.x",
         "body-parser":"1.x",
         "http-shutdown":"1.2.0",
