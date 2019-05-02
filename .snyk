@@ -1,0 +1,46 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.3
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - node-red-node-cf-cloudant > cloudant > debug:
+        patched: '2019-05-02T22:45:58.840Z'
+  'npm:hawk:20160119':
+    - node-red-bluemix-nodes > twilio > request > hawk:
+        patched: '2019-05-02T22:45:58.840Z'
+    - node-red-node-cf-cloudant > cloudant > nano > follow > request > hawk:
+        patched: '2019-05-02T22:45:58.840Z'
+  'npm:hoek:20180212':
+    - node-red-node-cf-cloudant > cloudant > nano > follow > request > hawk > hoek:
+        patched: '2019-05-02T22:45:58.840Z'
+    - node-red-node-cf-cloudant > cloudant > nano > follow > request > hawk > boom > hoek:
+        patched: '2019-05-02T22:45:58.840Z'
+    - node-red-node-cf-cloudant > cloudant > nano > follow > request > hawk > sntp > hoek:
+        patched: '2019-05-02T22:45:58.840Z'
+    - node-red-node-cf-cloudant > cloudant > nano > follow > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-05-02T22:45:58.840Z'
+  'npm:http-signature:20150122':
+    - node-red-bluemix-nodes > twilio > request > http-signature:
+        patched: '2019-05-02T22:45:58.840Z'
+    - node-red-node-cf-cloudant > cloudant > nano > follow > request > http-signature:
+        patched: '2019-05-02T22:45:58.840Z'
+  'npm:mime:20170907':
+    - node-red-bluemix-nodes > twilio > request > mime:
+        patched: '2019-05-02T22:45:58.840Z'
+    - node-red-bluemix-nodes > twilio > request > form-data > mime:
+        patched: '2019-05-02T22:45:58.840Z'
+  'npm:ms:20170412':
+    - node-red-node-cf-cloudant > cloudant > debug > ms:
+        patched: '2019-05-02T22:45:58.840Z'
+  'npm:qs:20140806-1':
+    - node-red-bluemix-nodes > twilio > request > qs:
+        patched: '2019-05-02T22:45:58.840Z'
+  'npm:request:20160119':
+    - node-red-node-cf-cloudant > cloudant > nano > follow > request:
+        patched: '2019-05-02T22:45:58.840Z'
+    - node-red-bluemix-nodes > twilio > request:
+        patched: '2019-05-02T22:45:58.840Z'
+  'npm:tunnel-agent:20170305':
+    - node-red-node-cf-cloudant > cloudant > nano > follow > request > tunnel-agent:
+        patched: '2019-05-02T22:45:58.840Z'
