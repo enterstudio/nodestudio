@@ -3,7 +3,7 @@
     "version"      : "0.6.0",
     "dependencies": {
         "when": "~3.x",
-        "nano": "6.2.x",
+        "nano": "8.1.0",
         "bcrypt": "1.0.2",
         "cfenv":"~1.0.0",
         "express":"4.x",
